@@ -1,0 +1,331 @@
+/*----------------- css reset --------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+/* ---------------backgrounds ------------------*/
+[class^="wallpaper-"] {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wallpaper-1 {
+    background-image: linear-gradient(#0000009e, #0000009e),
+        url("images/background-1.jpg");
+    background-attachment: scroll;
+}
+.wallpaper-2 {
+    background-image: url("images/background-2.jpg");
+}
+.wallpaper-3 {
+    background-image: url("images/background-3.jpg");
+}
+.wallpaper-4 {
+    background-image: url("images/background-4.jpg");
+}
+.wallpaper-5 {
+    background-image: url("images/background-5.jpg");
+}
+.wallpaper-6 {
+    background-image: url("images/background-6.jpg");
+}
+.wallpaper-7 {
+    background-image: url("images/background-7.jpg");
+}
+.wallpaper-8 {
+    background-image: url("images/background-8.jpg");
+}
+.wallpaper-9 {
+    background-image: url("images/background-9.jpg");
+}
+.wallpaper-10 {
+    background-image: url("images/background-10.jpg");
+}
+.wallpaper-11 {
+    background-image: url("images/background-11.jpg");
+}
+.wallpaper-12 {
+    background-image: url("images/background-12.jpg");
+}
+.wallpaper-13 {
+    background-image: url("images/background-13.jpg");
+}
+.wallpaper-14 {
+    background-image: url("images/background-14.jpg");
+}
+.wallpaper-15 {
+    background-image: url("images/background-15.jpg");
+}
+.wallpaper-16 {
+    background-image: url("images/background-16.jpg");
+}
+.wallpaper-17 {
+    background-image: url("images/background-17.jpg");
+}
+.wallpaper-18 {
+    background-image: url("images/background-18.jpg");
+}
+.wallpaper-19 {
+    background-image: url("images/background-19.jpg");
+}
+.wallpaper-20 {
+    background-image: url("images/background-20.jpg");
+}
+.wallpaper-21 {
+    background-image: url("images/background-21.jpg");
+}
+.content-box {
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+}
+
+/* ------------styling top-left side------------ */
+.content-box .top-left .one {
+    width: 79px;
+    height: 128px;
+    position: absolute;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+}
+.content-box .top-left .two {
+    width: 79px;
+    height: 128px;
+    position: absolute;
+    border: 1px solid #000;
+    top: 8px;
+    left: 8px;
+}
+.content-box .top-left .three {
+    width: 79px;
+    height: 128px;
+    position: absolute;
+    border: 1px solid #000;
+    top: 16px;
+    left: 16px;
+}
+.content-box .top-left .four {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 46px;
+    line-height: 80px;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 500;
+    font-family: BS Static, Helvetica, "Helvetica Neue", "Arial Nova", Arial,
+        Sans-Serif;
+}
+.content-box .top-left .five {
+    position: absolute;
+    top: 86px;
+    left: 27px;
+    width: 35px;
+    height: 1px;
+    background-color: #fff;
+    transform: rotate(135deg);
+}
+.content-box .top-left .six {
+    position: absolute;
+    top: 85px;
+    left: 41px;
+    width: 30px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: BS Static, Helvetica, "Helvetica Neue", "Arial Nova", Arial,
+        Sans-Serif;
+}
+
+/* --------------styling bottom-right side -------------*/
+.content-box .bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 88px;
+    height: 72px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    padding: 12px;
+    background-color: #000;
+}
+
+/* ---------------styling bottom-left -------------------*/
+.content-box .bottom-left {
+    position: absolute;
+    bottom: 90px;
+    left: -90px;
+    transform: rotate(-90deg);
+    padding: 16px 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 25px;
+    width: 300px;
+    height: 120px;
+}
+.content-box .created-for {
+    font-weight: 400;
+}
+
+/* -----------------styling top-right side ----------------*/
+.content-box .top-right {
+    position: absolute;
+    top: 90px;
+    right: -90px;
+    transform: rotate(90deg);
+    padding: 16px 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.2rem;
+    width: 300px;
+    height: 120px;
+}
+.content-box .top-right h5 {
+    font-weight: 400;
+    line-height: 25px;
+}
+.content-box span.bold {
+    font-weight: 600;
+}
+
+/*-------- styling top-right and botom-left corner ----------*/
+.bottom-left-border {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+.top-right-border {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+}
+
+/* black & white */
+.black {
+    border-color: #000;
+}
+.black h5 {
+    color: #000;
+}
+
+/*--------------------- home section------------------ */
+.home {
+    display: block;
+    position: relative;
+}
+header {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+    margin: auto;
+}
+
+/* microsoftlogo styling */
+header .microsoft-logo {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-wrap: wrap;
+    gap: 2px;
+    z-index: 2;
+}
+.microsoft-logo .one,
+.microsoft-logo .two,
+.microsoft-logo .three,
+.microsoft-logo .four {
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+}
+
+header p {
+    font-weight: 600;
+    color: #fff;
+    margin-left: 300px;
+}
+
+.home .sub-wallpaper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 425px;
+    background-image: url("images/background-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    margin: auto;
+}
+
+/* overlay text */
+.overlay-text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    text-align: center;
+}
+.overlay-text h1 {
+    font-size: 17vw;
+    font-weight: 900;
+    color: #ffffff3c;
+}
+.overlay-text h5 {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+/* ---------------------footer styling ---------------------*/
+.footer {
+    width: 100%;
+    background-color: #000;
+    padding: 50px 0 60px 0;
+}
+.footer .row {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.footer .col {
+    width: 270px;
+}
+.footer h3 {
+    margin-bottom: 35px;
+    color: #fff;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 25px;
+}
